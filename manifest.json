@@ -1,0 +1,23 @@
+{
+	"manifest_version":2,
+	"name":"kklop",
+	"version":"1.0",
+	"description":"kk",
+	"icons":{
+		"16":"img/icon.png",
+		"48":"img/icon.png",
+		"128":"img/icon.png"
+	},
+	//浏览器插件入口
+	"browser_action":{
+		"default_icon":"img/icon.png",
+		"default_title":"想换就换",
+		"default_popup":"popup.html"
+	},
+	"background": {
+	    "scripts": [
+	      "js/background.js"
+	    ]
+	  },
+	"permissions": [ "tabs" ]
+}
